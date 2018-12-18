@@ -2616,11 +2616,11 @@ input, select, textarea {
 			left: 0;
 			width: 1300px;
 			height: 1600px;
-			transform: scale(0.4);
-			-webkit-transform: scale(0.4);
-			-o-transform: scale(0.4);
-			-ms-transform: scale(0.4);
-			-moz-transform: scale(0.4);
+			transform: scale(0.33);
+			-webkit-transform: scale(0.33);
+			-o-transform: scale(0.33);
+			-ms-transform: scale(0.33);
+			-moz-transform: scale(0.33);
 			transform-origin: top left;
 			-webkit-transform-origin: top left;
 			-o-transform-origin: top left;
