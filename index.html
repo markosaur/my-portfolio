@@ -212,7 +212,7 @@
 							<p>If you would like to talk about work, code, sports, you name it, I would love to hear from you! You can contact me using the form or one of the links below.</p>
 						</header>
 						<div class="inner narrow">
-							<form action="http://localhost:4545/api/contact" method="post">
+							<form action="https://68.183.127.59:4545/api/contact" method="post">
 								<div class="fields">
 									<div class="field half">
 										<input name="name" id="name" placeholder="Name" type="text" />
@@ -256,6 +256,15 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<!-- <script>
+				function clearFields (){
+					let name = document.getElementById('name').value;
+					let email = document.getElementById('email').value;
+					let message = document.getElementById('message').value;
+					
+					document.forms['contact-me'].reset();
+				}
+			</script> -->
 
 	</body>
 </html>
