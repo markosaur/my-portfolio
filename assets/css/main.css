@@ -2592,7 +2592,7 @@ input, select, textarea {
 		border: 0;
 	}
 
-		.image[data-position] img, #carousel1, #carousel2 {
+		.image[data-position] img, #carousel1, #carousel2, #carousel3 {
 			-moz-object-fit: cover;
 			-webkit-object-fit: cover;
 			-ms-object-fit: cover;
