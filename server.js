@@ -24,7 +24,7 @@ app.post("/api/contact", (req, res) => {
     console.log(name, email, message)
     const mailOptions = {
         from: 'Portfolio Contact',
-        to: 'jshmccann@gmail.com',
+        to: 'codyjamesyoung@gmail.com',
         subject: `${name} reached out from your portfolio!`,
         html: `<p style='font-family: Sans-serif; color: #bada55; background-color: grey; font-size: 14px; text-align: center'>${message}<br>Name: ${name}<br>Email: ${email}</p>`
     }
@@ -35,7 +35,7 @@ app.post("/api/contact", (req, res) => {
             console.log(info)
         }
     })
-    res.status(200).redirect('https://www.josh-mccann.com')
+    res.status(200).redirect('https://www.codyjamesyoung.dev')
 })
 
 app.listen(4545, () => {

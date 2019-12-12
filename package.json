@@ -13,14 +13,6 @@
   "scripts": {
     "test": "jest",
     "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jrmccann2/my-portfolio.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jrmccann2/my-portfolio/issues"
   }
+ 
 }
