@@ -173,6 +173,18 @@ input, select, textarea {
 		text-decoration: none;
 	}
 
+	.youtube-vid, iframe {
+		width: 560px; 
+		height: 415px; 
+	}
+
+	@media (max-width: 1330px){
+		.youtube-vid, iframe {
+			width: 320px; 
+			height: 297px; 
+		}
+	}
+
 		a:before, a strong {
 			-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 			-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
